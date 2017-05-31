@@ -32,3 +32,19 @@ def sankey(request):
 
 def sankeychart(request):
     return render(request, 'sankeychart/index.html')
+
+
+def dendrogram(request):
+    return render(request, 'dendrogram/index.html')
+
+
+def blocksgraph(request):
+    return render(request, 'blocksgraph/index.html')
+
+
+def beeswarm(request):
+    return render(request, 'beeswarm/index.html')
+
+
+def solaroscillator(request):
+    return render(request, 'solaroscillator/index.html')

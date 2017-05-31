@@ -29,4 +29,8 @@ urlpatterns = [
     url(r'^plane/', views.plane),
     url(r'^sankey/', views.sankey),
     url(r'^sankeychart/', views.sankeychart),
+    url(r'^dendrogram/', views.dendrogram),
+    url(r'^blocksgraph/', views.blocksgraph),
+    url(r'^beeswarm/', views.beeswarm),
+    url(r'^solaroscillator/', views.solaroscillator),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
